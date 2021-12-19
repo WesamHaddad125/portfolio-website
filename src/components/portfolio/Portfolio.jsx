@@ -16,17 +16,9 @@ export default function Portfolio() {
             title: "Web App",
         },
         {
-            id: "mobile",
-            title: "Mobile App",
-        },
-        {
-            id: "design",
-            title: "Design",
-        },
-        {
-            id: "content",
-            title: "Content",
-        },
+            id: "machineLearning",
+            title: "Machine Learning",
+        }
     ]
 
     useEffect(()=> {
@@ -37,14 +29,8 @@ export default function Portfolio() {
             case "web":
                 setData(webPortfolio);
                 break;
-            case "mobile":
+            case "machineLearning":
                 setData(mobilePortfolio);
-                break;
-            case "design":
-                setData(designPortfolio);
-                break;
-            case "content":
-                setData(contentPortfolio);
                 break;
             default:
                 break;
