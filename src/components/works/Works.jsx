@@ -9,7 +9,7 @@ export default function Works() {
                         <div className="left">
                             <div className="leftContainer">
                                 <div className="imgContainer">
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -21,4 +21,4 @@ export default function Works() {
             </div>
         </div>
     )
-}
+}                                                                                                                                                 

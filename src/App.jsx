@@ -18,7 +18,6 @@ function App() {
         <Intro/>
         <Portfolio/>
         <Works/>
-        <Testimonials/>
         <Contact/>
       </div>
     </div>
