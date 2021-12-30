@@ -24,16 +24,54 @@ export default function Works() {
         {
           id: "2",
           icon: "./assets/globe.png",
-          title: "Mobile Application",
+          title: "Portfolio Website",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "I used React to create this responsive portfolio website, and using libraries like emailJS for the contacts page",
           img:
-            "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+            "./assets/portfolioApp.png",
           projLink:
-            "https://envi-messenger-team8.herokuapp.com/",
+            "",
+          projLinkName:
+            "Portfolio Website",
           projRepo:
-            "https://bitbucket.org/cps490-team8/cps490-team8/src/master/",
-        }
+            "https://github.com/WesamHaddad125/portfolio-website",
+          projRepoName:
+            "Portfolio Repository"
+        },
+        {
+          id: "3",
+          icon: "./assets/writing.png",
+          title: "Blocs: Programming Language",
+          desc:
+            "Using Regular Expressions and the Racket programming language, myself and my partner created our own programming language designed for kids. We wanted to design it like a story book that kids already learn through reading",
+          img:
+            "./assets/Blocs.png",
+          projLink:
+            "",
+          projLinkName:
+            "",
+          projRepo:
+            "https://bitbucket.org/cps352-final-project/cps352finalprojectrepo/src/master/",
+          projRepoName:
+            "Blocs Repository"
+        },
+        {
+          id: "4",
+          icon: "./assets/game.png",
+          title: "Memory Balance: MOBA",
+          desc:
+            "Created a MOBA game, similar to Dota 2, or League of Legends, but optimized for mobile. I created it using Unity, and Blender for 3D assets.",
+          img:
+            "./assets/Memory_Balance_Box_Cover.png",
+          projLink:
+            "https://www.youtube.com/watch?v=QJVztVj5htM",
+          projLinkName:
+            "Memory Balance Trailer",
+          projRepo:
+            "https://github.com/WesamHaddad125/Memory-Balance",
+          projRepoName:
+            "Game Repository"
+        },
       ];
 
     const handleClick = (way) =>{
