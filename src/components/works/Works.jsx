@@ -6,12 +6,20 @@ export default function Works() {
     const data = [
         {
           id: "1",
-          icon: "./assets/mobile.png",
-          title: "Web Design",
+          icon: "./assets/globe.png",
+          title: "Messenging App",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            "Created a messaging application that allows for the creation of groupchats and private chats. Users were allowed to create accounts and interact with friends by texting, playing games, and sending videos to each other!",
           img:
-            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+            "./assets/enviApp.png",
+          projLink:
+            "https://envi-messenger-team8.herokuapp.com/",
+          projLinkName:
+            "Envi Website",
+          projRepo:
+            "https://bitbucket.org/cps490-team8/cps490-team8/src/master/",
+          projRepoName:
+            "Envi Repository"
         },
         {
           id: "2",
@@ -21,16 +29,11 @@ export default function Works() {
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
           img:
             "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-        },
-        {
-          id: "3",
-          icon: "./assets/writing.png",
-          title: "Branding",
-          desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-          img:
-            "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-        },
+          projLink:
+            "https://envi-messenger-team8.herokuapp.com/",
+          projRepo:
+            "https://bitbucket.org/cps490-team8/cps490-team8/src/master/",
+        }
       ];
 
     const handleClick = (way) =>{
@@ -46,21 +49,18 @@ export default function Works() {
                         <div className="left">
                             <div className="leftContainer">
                                 <div className="imgContainer">
-<<<<<<< HEAD
-
-=======
                                     <img src={d.icon} alt=""/>
->>>>>>> e1e72ca5794e1988798b5af7f4db1736b27a23a4
                                 </div>
                                 <h2>{d.title}</h2>
                                 <p>
                                     {d.desc}
                                 </p>
-                                <span>Projects</span>
+                                <span><a href={d.projLink} target="_blank">{d.projLinkName}</a></span>
+                                <span><a href={d.projRepo} target="_blank">{d.projRepoName}</a></span>
                             </div>
                         </div>
                         <div className="right">
-                            <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930" alt=""/>
+                            <img src={d.img} alt=""/>
                         </div>
                     </div>
                 </div>
