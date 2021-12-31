@@ -6,12 +6,12 @@ export default function Works() {
     const data = [
         {
           id: "1",
-          icon: "public/assets/globe.png",
+          icon: "/../public/assets/globe.png",
           title: "Messenging App",
           desc:
             "Created a messaging application that allows for the creation of groupchats and private chats. Users were allowed to create accounts and interact with friends by texting, playing games, and sending videos to each other!",
           img:
-            "public/assets/enviApp.png",
+            "/../public/assets/enviApp.png",
           projLink:
             "https://envi-messenger-team8.herokuapp.com/",
           projLinkName:
@@ -23,12 +23,12 @@ export default function Works() {
         },
         {
           id: "2",
-          icon: "public/assets/globe.png",
+          icon: "/../public/assets/globe.png",
           title: "Portfolio Website",
           desc:
             "I used React to create this responsive portfolio website, and using libraries like emailJS for the contacts page",
           img:
-            "public/assets/portfolioApp.png",
+            "/../public/assets/portfolioApp.png",
           projLink:
             "",
           projLinkName:
@@ -40,12 +40,12 @@ export default function Works() {
         },
         {
           id: "3",
-          icon: "public/assets/writing.png",
+          icon: "/../public/assets/writing.png",
           title: "Blocs: Programming Language",
           desc:
             "Using Regular Expressions and the Racket programming language, myself and my partner created our own programming language designed for kids. We wanted to design it like a story book that kids already learn through reading",
           img:
-            "public/assets/Blocs.png",
+            "/../public/assets/Blocs.png",
           projLink:
             "",
           projLinkName:
@@ -57,12 +57,12 @@ export default function Works() {
         },
         {
           id: "4",
-          icon: "public/assets/game.png",
+          icon: "/../public/assets/game.png",
           title: "Memory Balance: MOBA",
           desc:
             "Created a MOBA game, similar to Dota 2, or League of Legends, but optimized for mobile. I created it using Unity, and Blender for 3D assets.",
           img:
-            "public/assets/Memory_Balance_Box_Cover.png",
+            "/../public/assets/Memory_Balance_Box_Cover.png",
           projLink:
             "https://www.youtube.com/watch?v=QJVztVj5htM",
           projLinkName:
