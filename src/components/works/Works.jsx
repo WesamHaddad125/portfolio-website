@@ -1,17 +1,24 @@
 import "./works.scss"
 import { useState } from "react";
+import globe from "public/assets/globe.png";
+import enviApp from "public/assets/enviApp.png";
+import portfolioApp from "public/assets/portfolioApp.png";
+import writing from "public/assets/writing.png";
+import blocs from "public/assets/Blocs.png";
+import game from "public/assets/game.png";
+import gameLogo from "public/assets/Memory_Balance_Box_Cover.png";
 
 export default function Works() {
     const [currentSlide,setCurrentSlide] = useState(0)
     const data = [
         {
           id: "1",
-          icon: "/../public/assets/globe.png",
+          icon: globe,
           title: "Messenging App",
           desc:
             "Created a messaging application that allows for the creation of groupchats and private chats. Users were allowed to create accounts and interact with friends by texting, playing games, and sending videos to each other!",
           img:
-            "/../public/assets/enviApp.png",
+            enviApp,
           projLink:
             "https://envi-messenger-team8.herokuapp.com/",
           projLinkName:
@@ -23,12 +30,12 @@ export default function Works() {
         },
         {
           id: "2",
-          icon: "/../public/assets/globe.png",
+          icon: globe,
           title: "Portfolio Website",
           desc:
             "I used React to create this responsive portfolio website, and using libraries like emailJS for the contacts page",
           img:
-            "/../public/assets/portfolioApp.png",
+            portfolioApp,
           projLink:
             "",
           projLinkName:
@@ -40,12 +47,12 @@ export default function Works() {
         },
         {
           id: "3",
-          icon: "/../public/assets/writing.png",
+          icon: writing,
           title: "Blocs: Programming Language",
           desc:
             "Using Regular Expressions and the Racket programming language, myself and my partner created our own programming language designed for kids. We wanted to design it like a story book that kids already learn through reading",
           img:
-            "/../public/assets/Blocs.png",
+            blocs,
           projLink:
             "",
           projLinkName:
@@ -57,12 +64,12 @@ export default function Works() {
         },
         {
           id: "4",
-          icon: "/../public/assets/game.png",
+          icon: game,
           title: "Memory Balance: MOBA",
           desc:
             "Created a MOBA game, similar to Dota 2, or League of Legends, but optimized for mobile. I created it using Unity, and Blender for 3D assets.",
           img:
-            "/../public/assets/Memory_Balance_Box_Cover.png",
+            gameLogo,
           projLink:
             "https://www.youtube.com/watch?v=QJVztVj5htM",
           projLinkName:
