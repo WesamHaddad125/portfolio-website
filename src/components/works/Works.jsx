@@ -1,24 +1,17 @@
 import "./works.scss"
 import { useState } from "react";
-import globe from "public/assets/globe.png";
-import enviApp from "public/assets/enviApp.png";
-import portfolioApp from "public/assets/portfolioApp.png";
-import writing from "public/assets/writing.png";
-import blocs from "public/assets/Blocs.png";
-import game from "public/assets/game.png";
-import gameLogo from "public/assets/Memory_Balance_Box_Cover.png";
 
 export default function Works() {
     const [currentSlide,setCurrentSlide] = useState(0)
     const data = [
         {
           id: "1",
-          icon: globe,
+          icon: "https://cdn.discordapp.com/attachments/926354140857253979/926354333979779142/globe.png",
           title: "Messenging App",
           desc:
             "Created a messaging application that allows for the creation of groupchats and private chats. Users were allowed to create accounts and interact with friends by texting, playing games, and sending videos to each other!",
           img:
-            enviApp,
+            "https://cdn.discordapp.com/attachments/926354140857253979/926354335267446784/enviApp.PNG",
           projLink:
             "https://envi-messenger-team8.herokuapp.com/",
           projLinkName:
@@ -30,12 +23,12 @@ export default function Works() {
         },
         {
           id: "2",
-          icon: globe,
+          icon: "https://cdn.discordapp.com/attachments/926354140857253979/926354333979779142/globe.png",
           title: "Portfolio Website",
           desc:
             "I used React to create this responsive portfolio website, and using libraries like emailJS for the contacts page",
           img:
-            portfolioApp,
+            "https://cdn.discordapp.com/attachments/926354140857253979/926354271832789003/portfolioApp.PNG",
           projLink:
             "",
           projLinkName:
@@ -47,12 +40,12 @@ export default function Works() {
         },
         {
           id: "3",
-          icon: writing,
+          icon: "https://cdn.discordapp.com/attachments/926354140857253979/926354271459491840/writing.png",
           title: "Blocs: Programming Language",
           desc:
             "Using Regular Expressions and the Racket programming language, myself and my partner created our own programming language designed for kids. We wanted to design it like a story book that kids already learn through reading",
           img:
-            blocs,
+            "https://cdn.discordapp.com/attachments/926354140857253979/926354334642491442/Blocs.png",
           projLink:
             "",
           projLinkName:
@@ -64,12 +57,12 @@ export default function Works() {
         },
         {
           id: "4",
-          icon: game,
+          icon: "https://cdn.discordapp.com/attachments/926354140857253979/926354335510712330/game.png",
           title: "Memory Balance: MOBA",
           desc:
             "Created a MOBA game, similar to Dota 2, or League of Legends, but optimized for mobile. I created it using Unity, and Blender for 3D assets.",
           img:
-            gameLogo,
+            "https://cdn.discordapp.com/attachments/926354140857253979/926354312303620166/Memory_Balance_Box_Cover.png",
           projLink:
             "https://www.youtube.com/watch?v=QJVztVj5htM",
           projLinkName:
@@ -111,8 +104,8 @@ export default function Works() {
                 </div>
                 ))}
             </div>
-            <img src="assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
-            <img src="assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")}/>
+            <img src="https://cdn.discordapp.com/attachments/926354140857253979/926354334369865768/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
+            <img src="https://cdn.discordapp.com/attachments/926354140857253979/926354334369865768/arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")}/>
         </div>
     )
 }                                                                                                                                                 
