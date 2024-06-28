@@ -9,11 +9,13 @@ export default function Contact() {
         document.getElementById("contact-form").reset();
     }
 
+    emailjs.init('oSeZMMCdgXlgxycRf');
+
     const handleSubmit = (e)=> {
         e.preventDefault();
 
         // Send Email
-        emailjs.sendForm('gmail', 'template_56whove', e.target, 'user_ZcliVLrSk9XcCmqE5zAO2')
+        emailjs.sendForm('service_cx3k8nd', 'template_w5no95a', e.target)
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -26,7 +28,7 @@ export default function Contact() {
     return (
         <div className="contact" id="contact"> 
             <div className="left">
-                <img src="assets/shake.svg" alt="" />
+                <img src="/assets/shake.svg" alt="" />
             </div>
             <div className="right">
                 <h2>Contact</h2>

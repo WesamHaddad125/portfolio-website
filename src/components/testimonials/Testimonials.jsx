@@ -45,7 +45,7 @@ export default function Testimonials() {
                 {data.map(d=> (
                 <div className={d.featured ? "card featured" : "card"}>
                     <div className="top">
-                        <img src="assets/right-arrow.png" className="left" alt="" />
+                        <img src="public\assets\right-arrow.png" className="left" alt="" />
                         <img className="user" src={d.img} alt="" />
                         <a href={d.iconLink} target="_blank"><img className="right" src={d.icon} alt="" /></a>
                     </div>

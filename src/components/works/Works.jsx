@@ -6,12 +6,12 @@ export default function Works() {
     const data = [
         {
           id: "1",
-          icon: "https://cdn.discordapp.com/attachments/926354140857253979/926354333979779142/globe.png",
+          icon: "\\assets\\globe.png",
           title: "Messenging App",
           desc:
             "Created a messaging application that allows for the creation of groupchats and private chats. Users were allowed to create accounts and interact with friends by texting, playing games, and sending videos to each other!",
           img:
-            "https://cdn.discordapp.com/attachments/926354140857253979/926354335267446784/enviApp.PNG",
+            "\\assets\\enviApp.PNG",
           projLink:
             "https://envi-messenger-team8.herokuapp.com/",
           projLinkName:
@@ -23,12 +23,12 @@ export default function Works() {
         },
         {
           id: "2",
-          icon: "https://cdn.discordapp.com/attachments/926354140857253979/926354333979779142/globe.png",
+          icon: "\\assets\\globe.png",
           title: "Portfolio Website",
           desc:
             "I used React to create this responsive portfolio website, and using libraries like emailJS for the contacts page",
           img:
-            "https://cdn.discordapp.com/attachments/926354140857253979/926354271832789003/portfolioApp.PNG",
+            "\\assets\\portfolioApp.PNG",
           projLink:
             "",
           projLinkName:
@@ -40,12 +40,12 @@ export default function Works() {
         },
         {
           id: "3",
-          icon: "https://cdn.discordapp.com/attachments/926354140857253979/926354271459491840/writing.png",
+          icon: "\\assets\\writing.png",
           title: "Blocs: Programming Language",
           desc:
             "Using Regular Expressions and the Racket programming language, myself and my partner created our own programming language designed for kids. We wanted to design it like a story book that kids already learn through reading",
           img:
-            "https://cdn.discordapp.com/attachments/926354140857253979/926354334642491442/Blocs.png",
+            "\\assets\\Blocs.png",
           projLink:
             "",
           projLinkName:
@@ -57,12 +57,12 @@ export default function Works() {
         },
         {
           id: "4",
-          icon: "https://cdn.discordapp.com/attachments/926354140857253979/926354335510712330/game.png",
+          icon: "\\assets\\game.png",
           title: "Memory Balance: MOBA",
           desc:
             "Created a MOBA game, similar to Dota 2, or League of Legends, but optimized for mobile. I created it using Unity, and Blender for 3D assets.",
           img:
-            "https://cdn.discordapp.com/attachments/926354140857253979/926354312303620166/Memory_Balance_Box_Cover.png",
+            "\\assets\\Memory_Balance_Box_Cover.png",
           projLink:
             "https://www.youtube.com/watch?v=QJVztVj5htM",
           projLinkName:
@@ -82,7 +82,7 @@ export default function Works() {
         <div className="works" id="works">
             <div className="slider" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
                 {data.map(d=>(
-                <div className="container">
+                <div className="container" key={d.id}>
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
@@ -104,8 +104,8 @@ export default function Works() {
                 </div>
                 ))}
             </div>
-            <img src="https://cdn.discordapp.com/attachments/926354140857253979/926354334369865768/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
-            <img src="https://cdn.discordapp.com/attachments/926354140857253979/926354334369865768/arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")}/>
+            <img src="\assets\arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
+            <img src="\assets\arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")}/>
         </div>
     )
 }                                                                                                                                                 
